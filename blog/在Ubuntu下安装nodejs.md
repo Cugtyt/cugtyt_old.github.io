@@ -1,0 +1,19 @@
+***不要使用 ```sudo apt install nodejs npm```***
+
+Steps:
+>1. 下载 [Download](https://nodejs.org/en/download/)
+>2. 解压 
+``` bash
+    $tar xvJf ***.tar.xz
+```
+>3. 链接
+``` bash
+    $ sudo ln -s /usr/lib/node/node-v8.8.0-linux-x64/bin/node /usr/local/bin/node
+    $ sudo ln -s /usr/lib/node/node-v8.8.0-linux-x64/bin/npm /usr/local/bin/npm
+```
+>4. 测试安装成功
+``` bash
+    $ node -v
+    $ npm -v
+``` 
+输出版本表示安装成功

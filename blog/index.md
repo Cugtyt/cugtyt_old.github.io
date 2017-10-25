@@ -1,5 +1,5 @@
 > ### Contact me:  
-> Email -> [QQ Mail](cugtyt@qq.com), [GMail](cugtyt@gmail.com)  
+> Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>  
 > GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 
 # **Blogs**

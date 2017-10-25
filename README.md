@@ -1,3 +1,3 @@
 # cugtyt.github.io
 
-This is the personal page of Cugtyt.
+This is the home of Cugtyt.

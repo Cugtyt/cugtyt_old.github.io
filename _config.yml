@@ -1,2 +1,3 @@
 theme: jekyll-theme-cayman
 name: Cugtyt
+permalink: /blog/:year/:month/:day/:title

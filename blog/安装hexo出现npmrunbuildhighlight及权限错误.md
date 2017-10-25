@@ -1,3 +1,6 @@
+# 安装hexo出现npm run build:highlight及权限错误
+
+
 用户目录下会有nom-debug.log文件
 最后的错误是：
 ```

@@ -1,0 +1,46 @@
+用户目录下会有nom-debug.log文件
+最后的错误是：
+```
+9415 verbose stack Error: hexo-util@0.6.1 postinstall: `npm run build:highlight`
+9415 verbose stack Exit status 1
+9415 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+9415 verbose stack     at emitTwo (events.js:87:13)
+9415 verbose stack     at EventEmitter.emit (events.js:172:7)
+9415 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+9415 verbose stack     at emitTwo (events.js:87:13)
+9415 verbose stack     at ChildProcess.emit (events.js:172:7)
+9415 verbose stack     at maybeClose (internal/child_process.js:821:16)
+9415 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+9416 verbose pkgid hexo-util@0.6.1
+9417 verbose cwd /home/cugtyt
+9418 error Linux 4.4.0-43-Microsoft
+9419 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "hexo-cli"
+9420 error node v4.2.6
+9421 error npm  v3.5.2
+9422 error code ELIFECYCLE
+9423 error hexo-util@0.6.1 postinstall: `npm run build:highlight`
+9423 error Exit status 1
+9424 error Failed at the hexo-util@0.6.1 postinstall script 'npm run build:highlight'.
+9424 error Make sure you have the latest version of node.js and npm installed.
+9424 error If you do, this is most likely a problem with the hexo-util package,
+9424 error not with npm itself.
+9424 error Tell the author that this fails on your system:
+9424 error     npm run build:highlight
+9424 error You can get information on how to open an issue for this project with:
+9424 error     npm bugs hexo-util
+9424 error Or if that isn't available, you can get their info via:
+9424 error     npm owner ls hexo-util
+9424 error There is likely additional logging output above.
+9425 verbose exit [ 1, true ]
+
+```
+
+解决方法：
+``` bash
+$ npm config set user 0 
+$ npm config set unsafe-perm true
+```
+然后继续安装：
+``` bash
+$ npm install -g hexo-cli
+```

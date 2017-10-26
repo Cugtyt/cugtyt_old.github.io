@@ -5,7 +5,7 @@
 # **Blogs**
 
 - ## [**在Ubuntu下安装Nodejs**](https://cugtyt.github.io/blog/201710251850)
-    > 不要使用 ```sudo apt install nodejs npm``   
+    > 不要使用 ```sudo apt install nodejs npm```   
     > 步骤： ......
     
 ----

@@ -4,6 +4,12 @@
 
 # **Blogs**
 
+- ## [**CS231n assignment 1中compute_distances_no_loops思路**](https://cugtyt.github.io/blog/201710281645)
+    > 矩阵过大会导致python抛出 Memory Error    
+    > 用数学方法转换计算，以及利用broadcasting可以巧妙解决
+
+---
+
 - ## [**numpy.swapaxes 交换矩阵的轴，旋转维度**](https://cugtyt.github.io/blog/201710281314)
     > 高维矩阵维度（轴交换）   
     > 注意维度是从0开始数的

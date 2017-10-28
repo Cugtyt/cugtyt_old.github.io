@@ -8,6 +8,8 @@
     > numpy.tile提供方便的矩阵操作   
     > 注意维度的改变，尤其是在做复杂的矩阵操作时
 
+---
+
 - ## [**在Ubuntu下安装Nodejs**](https://cugtyt.github.io/blog/201710251850)
     > 不要使用 ```sudo apt install nodejs npm```   
     > 步骤： ......

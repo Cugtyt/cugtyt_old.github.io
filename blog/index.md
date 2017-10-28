@@ -16,7 +16,7 @@
     
 ----
 
-- ## [**安装hexo出现`npm run build:highlight`及权限错误**](https://cugtyt.github.io/blog/201710251851)
+- ## [**安装hexo出现 npm run build:highlight 及权限错误**](https://cugtyt.github.io/blog/201710251851)
     > 即使sudo还是有权限问题  
     > 已经确定安装号Git和Node.js  
     > 参考相关博客

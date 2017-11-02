@@ -4,6 +4,13 @@
 
 # **Blogs**
 
+
+- ## [**numpy.pad 用法示例**](https://cugtyt.github.io/blog/201711022006)
+    > numpy.pad 的用法说明，不同维度填充不同数字    
+    > 在CNN中padding可以用到
+
+---
+
 - ## [**CS231n assignment 1中compute_distances_no_loops思路**](https://cugtyt.github.io/blog/201710281645)
     > 矩阵过大会导致python抛出 Memory Error    
     > 用数学方法转换计算，以及利用broadcasting可以巧妙解决

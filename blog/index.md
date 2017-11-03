@@ -4,6 +4,11 @@
 
 # **Blogs**
 
+- ## [**Windows和Linux上更新Node.js**](https://cugtyt.github.io/blog/201711030917)
+    > 在两个平台上的做法    
+    > 在Linux上遇到`sudo: n: command not found`解决方法  
+
+---
 
 - ## [**numpy.pad 用法示例**](https://cugtyt.github.io/blog/201711022006)
     > numpy.pad 的用法说明，不同维度填充不同数字    

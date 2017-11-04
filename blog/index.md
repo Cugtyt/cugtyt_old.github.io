@@ -10,7 +10,7 @@
 
 ---
 
-- ## [**fish 的安装与更新**](https://cugtyt.github.io/blog/201711031138)
+- ## [**fish 的安装与更新**](https://cugtyt.github.io/blog/201711031134)
     > fish 的功能特点    
     > 安装和更新，加入repository    
 

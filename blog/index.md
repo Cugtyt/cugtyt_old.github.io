@@ -4,6 +4,12 @@
 
 # **Blogs**
 
+- ## [**使用命令快速升级pip包**](https://cugtyt.github.io/blog/201711060923)
+    > 升级所有pip包的代码    
+    > python2和python3需要更改一下版本号    
+
+---
+
 - ## [**aria2 基本使用**](https://cugtyt.github.io/blog/201711031511)
     > aria2的使用和配置    
     > 配合网页图形使用    

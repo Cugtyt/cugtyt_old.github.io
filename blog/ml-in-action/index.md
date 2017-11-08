@@ -1,8 +1,10 @@
+# **Blogs of Machine Learning In Action**
+
 > ### Contact me:  
 > Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>  
 > GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 
-# **Blogs of Machine Learning In Action**
+---
 
 本系列博客是在学习《机器学习实战》中，主要参考了[Machine-Learning@GitHub](https://github.com/Jack-Cherish/Machine-Learning)中的代码，但是代码有些写的很繁杂，可读性较低，因此对部分代码进行了一定的修改，主要是函数中的重新实现，目的是可读，逻辑性更清晰，完全可以替换原来的相应函数。
 

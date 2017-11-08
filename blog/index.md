@@ -4,6 +4,8 @@
 > Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>  
 > GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 
+---
+
 - ## [**使用命令快速升级pip包**](https://cugtyt.github.io/blog/2017/11060923)
     > 升级所有pip包的代码    
     > python2和python3需要更改一下版本号    

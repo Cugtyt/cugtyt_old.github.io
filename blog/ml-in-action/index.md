@@ -1,4 +1,4 @@
-# **Blogs of Machine Learning In Action**
+# **Blogs of *Machine Learning In Action***
 
 > ### Contact me:  
 > Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>  

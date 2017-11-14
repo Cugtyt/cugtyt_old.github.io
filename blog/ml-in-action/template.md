@@ -1,4 +1,4 @@
-# 《Machine Learning In Action》 中content
+# 《Machine Learning In Action》 中
 
 ---
 > ## Contact me:
@@ -12,3 +12,23 @@
 > **此处粘贴的代码来源为**<https://github.com/Jack-Cherish/Machine-Learning>
 
 ---
+
+
+## 1. 
+
+**原代码：**
+
+``` python
+
+```
+
+问题：  
+
+
+
+**参考修改：**
+
+``` python
+
+```
+

@@ -6,6 +6,21 @@
 
 ---
 
+- ## [**机器学习实战部分代码精简优化系列**](https://cugtyt.github.io/blog/ml-in-action/index)
+    > 在学习《*Machine Leaning In Action*》发现代码实现很不好  
+    > 很多代码实现繁琐，效率低    
+    > 使用语言特性可以优化，如列表推导，zip等  
+    > 利用第三方包可以简化代码，提升效率，如numpy广播，矩阵处理等    
+    > 数学上的简化更加有效
+
+---
+
+- ## [**使用zip简化循环多列表迭代**](https://cugtyt.github.io/blog/2017/11131051)
+    > 多列表迭代对比    
+    > 数据量大的时候zip优势更为明显    
+
+---
+
 - ## [**使用命令快速升级pip包**](https://cugtyt.github.io/blog/2017/11060923)
     > 升级所有pip包的代码    
     > python2和python3需要更改一下版本号    

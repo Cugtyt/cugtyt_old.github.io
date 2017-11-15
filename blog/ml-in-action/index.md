@@ -34,15 +34,15 @@
 
 ---
 
+- ## [**Decision Tree部分代码精简优化**](https://cugtyt.github.io/blog/ml-in-action/201711082112)
+    > 使用列表推导可以简化代码，逻辑更清楚    
+    > 内置函数可以优化代码
+    > Counter可以省去很多不必要的工作
+---
+
 - ## [**knn部分的代码精简优化**](https://cugtyt.github.io/blog/ml-in-action/201711081901)
     > 尽量不要使用tile    
     > 利用broadcasting特性可以减少代码，加快运算速度
     > Counter可以省去很多不必要的工作
 
----
-
-- ## [**Decision Tree部分代码精简优化**](https://cugtyt.github.io/blog/ml-in-action/201711082112)
-    > 使用列表推导可以简化代码，逻辑更清楚    
-    > 内置函数可以优化代码
-    > Counter可以省去很多不必要的工作
 ---

@@ -15,6 +15,12 @@
 
 ---
 
+- ## [**VS Code 一直出现 Pylint not installed 问题的解决**](https://cugtyt.github.io/blog/2017/11162033)
+    > 首先确定正确安装所需软件，路径正确设置    
+    > 需要修改python文件内部代码，解决解析编码的问题    
+
+---
+
 - ## [**使用zip简化循环多列表迭代**](https://cugtyt.github.io/blog/2017/11131051)
     > 多列表迭代对比    
     > 数据量大的时候zip优势更为明显    

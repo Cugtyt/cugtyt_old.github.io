@@ -15,6 +15,12 @@
 
 ---
 
+- ## [**Ubuntu安装spark步骤**](https://cugtyt.github.io/blog/2017/11192214)
+    > 安装spark和pyspark    
+    > 不涉及hadoop和scala的安装    
+
+---
+
 - ## [**VS Code 一直出现 Pylint not installed 问题的解决**](https://cugtyt.github.io/blog/2017/11162033)
     > 首先确定正确安装所需软件，路径正确设置    
     > 需要修改python文件内部代码，解决解析编码的问题    

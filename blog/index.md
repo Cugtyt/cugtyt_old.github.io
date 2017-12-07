@@ -15,6 +15,12 @@
 
 ---
 
+- ## [**VS Code 中 Go 相关插件无法安装的解决方法**](https://cugtyt.github.io/blog/2017/12072109)
+    > go相关插件的安装    
+    > 如果翻墙后依然无法安装，可以按照此方法    
+
+---
+
 - ## [**Ubuntu安装spark步骤**](https://cugtyt.github.io/blog/2017/11192214)
     > 安装spark和pyspark    
     > 不涉及hadoop和scala的安装    

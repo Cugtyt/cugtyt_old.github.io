@@ -6,6 +6,12 @@
 
 ---
 
+- ## [**使用 list comprehension 提高简单循环性能**](https://cugtyt.github.io/blog/2018/02031239)
+    > 比较for循环与list comprehension, filter 性能  
+    > 对于简单循环，list comprehension最为高效    
+
+---
+
 - ## [**机器学习实战部分代码精简优化系列**](https://cugtyt.github.io/blog/ml-in-action/index)
     > 在学习《*Machine Leaning In Action*》发现代码实现很不好  
     > 很多代码实现繁琐，效率低    

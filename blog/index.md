@@ -6,18 +6,23 @@
 
 ---
 
-- ## [**使用 list comprehension 提高简单循环性能**](https://cugtyt.github.io/blog/2018/02031239)
-    > 比较for循环与list comprehension, filter 性能  
-    > 对于简单循环，list comprehension最为高效    
-
----
-
 - ## [**机器学习实战部分代码精简优化系列**](https://cugtyt.github.io/blog/ml-in-action/index)
     > 在学习《*Machine Leaning In Action*》发现代码实现很不好  
     > 很多代码实现繁琐，效率低    
     > 使用语言特性可以优化，如列表推导，zip等  
     > 利用第三方包可以简化代码，提升效率，如numpy广播，矩阵处理等    
     > 数学上的简化更加有效
+
+---
+
+- ## [**动态规划求解不同子串数目**](https://cugtyt.github.io/blog/2018/02052106)
+    > 在S串中找匹配T子串的数量，详见内容    
+
+---
+
+- ## [**使用 list comprehension 提高简单循环性能**](https://cugtyt.github.io/blog/2018/02031239)
+    > 比较for循环与list comprehension, filter 性能  
+    > 对于简单循环，list comprehension最为高效    
 
 ---
 

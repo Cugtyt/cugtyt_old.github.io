@@ -6,6 +6,11 @@
 
 ---
 
+- ## [**机器学习和数据科学相关*系列***](https://cugtyt.github.io/blog/ml-data/index)
+    > 一些关于机器学习、数据科学的算法和应用相关内容
+    
+---
+
 - ## [**算法题目*系列***](https://cugtyt.github.io/blog/algo/index)
     > 做过的一些算法题目和练习      
 

@@ -10,6 +10,11 @@
 
 ---
 
+- ## [**Michael Nielsen对softmax的解释**](https://cugtyt.github.io/blog/ml-data/201802101439)
+    > softmax+对数似然损失同样解决了学习缓慢的问题      
+
+---
+
 - ## [**Michael Nielsen对交叉熵的解释（三）**](https://cugtyt.github.io/blog/ml-data/201802092159)
     > 与二次损失函数的对比和结果讨论      
 

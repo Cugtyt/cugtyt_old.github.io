@@ -10,6 +10,11 @@
 
 ---
 
+- ## [**Michael Nielsen对梯度消失的解释（一）**](https://cugtyt.github.io/blog/ml-data/201802101619)
+    > 为什么会出现梯度消失      
+
+---
+
 - ## [**Michael Nielsen对softmax的解释**](https://cugtyt.github.io/blog/ml-data/201802101439)
     > softmax+对数似然损失同样解决了学习缓慢的问题      
 

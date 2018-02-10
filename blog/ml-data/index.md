@@ -10,6 +10,11 @@
 
 ---
 
+- ## [**Michael Nielsen对梯度消失的解释（二）**](https://cugtyt.github.io/blog/ml-data/201802101819)
+    > 梯度消失的数学解释以及梯度爆炸，梯度不稳定问题      
+
+---
+
 - ## [**Michael Nielsen对梯度消失的解释（一）**](https://cugtyt.github.io/blog/ml-data/201802101619)
     > 为什么会出现梯度消失      
 

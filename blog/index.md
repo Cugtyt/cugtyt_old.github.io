@@ -25,6 +25,30 @@
 
 ---
 
+- ## [**从C语言的数组参数退化为指针谈起**](https://cugtyt.github.io/blog/2018/02211209)
+    > 数组参数为什么要退化为指针  
+    > 数组指针    
+
+---
+
+- ## [**从C语言的函数传参谈指针**](https://cugtyt.github.io/blog/2018/02191214)
+    > 函数参数是复制的  
+    > 指针的本质就是一个存地址的变量，仅此而已    
+
+---
+
+- ## [**从C++的RAII理解智能指针的思路（二）**](https://cugtyt.github.io/blog/2018/02191208)
+    > shared_ptr原理  
+    > weak_ptr原理    
+
+---
+
+- ## [**从C++的RAII理解智能指针的思路（一）**](https://cugtyt.github.io/blog/2018/02132021)
+    > RAII，析构函数管理内存  
+    > 简单实现unique_ptr原理    
+
+---
+
 - ## [**使用 list comprehension 提高简单循环性能**](https://cugtyt.github.io/blog/2018/02031239)
     > 比较for循环与list comprehension, filter 性能  
     > 对于简单循环，list comprehension最为高效    

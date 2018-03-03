@@ -25,6 +25,12 @@
 
 ---
 
+- ## [**Python中什么时候不使用List**](https://cugtyt.github.io/blog/2018/02282133)
+    > 什么时候不应该使用List  
+    > 一些情况下比List更高效的collection    
+
+---
+
 - ## [**从C语言的数组参数退化为指针谈起**](https://cugtyt.github.io/blog/2018/02211209)
     > 数组参数为什么要退化为指针  
     > 数组指针    

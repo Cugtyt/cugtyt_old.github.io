@@ -25,6 +25,11 @@
 
 ---
 
+- ## [**Python引入其他包的模块**](https://cugtyt.github.io/blog/2018/03091457)
+    > 在普通文件夹下引用其他python包的模块    
+
+---
+
 - ## [**Python中什么时候不使用List**](https://cugtyt.github.io/blog/2018/02282133)
     > 什么时候不应该使用List  
     > 一些情况下比List更高效的collection    

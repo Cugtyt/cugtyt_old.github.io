@@ -6,7 +6,7 @@
 
 ---
 
-- ## [**Python中使用序列解决不确定循环层数的遍历问题**](https://cugtyt.github.io/blog/algo/201803071442)
+- ## [**Python中使用序列解决不确定循环层数的遍历问题**](https://cugtyt.github.io/blog/algo/201803071441)
     > 当循环层数不确定时如何遍历    
 
 ---

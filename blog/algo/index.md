@@ -1,13 +1,14 @@
 # **Blogs of *Algorithm***
 
 > ## Contact me
-> Email -> <cugtyt@qq.com>, <cugtyt@gmail.com> \
+> Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>
+>
 > GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 
 ---
 
 - ## [**青蛙过河问题**](https://cugtyt.github.io/blog/algo/201804291948)
-    > 青蛙过河问题
+    > 深度优先搜索
 
 ---
 

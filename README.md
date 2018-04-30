@@ -7,7 +7,7 @@
 test tex
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
-$ a=b+c $
+$$ a=b+c $$
 </script>
 
 

@@ -4,8 +4,7 @@
 > Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>  
 > GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 
-test tex
-
+test
 $$ a=b+c $$
 
 

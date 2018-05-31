@@ -30,6 +30,11 @@
 
 ---
 
+- ## [**LaTex使用中遇到的问题**](https://cugtyt.github.io/blog/2018/05312020)
+    > 参考文献，导入pdf页，修改目录样式，目录不出现页码，修改图表标题后的`:`为空格，不显示链接的颜色框
+
+---
+
 - ## [**GitHub Page支持Latex公式**](https://cugtyt.github.io/blog/2018/04301511)
     > 修改Jekyll默认样式支持公式，MathJax
 

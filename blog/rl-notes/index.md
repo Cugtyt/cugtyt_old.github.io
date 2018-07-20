@@ -12,27 +12,42 @@
 
 ---
 
-- ## [**Q-Learning Agents**](https://cugtyt.github.io/blog/rl-notes/201807201023)
-    > Policy Gradient, Q-Learning, Bellman Equation, Q-Table 代码, Q-Learning NN 代码
+- ## [***Thomas Simonini* Part 3: Diving deeper into Reinforcement Learning with Q-Learning**](https://cugtyt.github.io/blog/rl-notes/201807201554)
+    > Preprocessing part, The problem of temporal limitation, Experience Replay
 
 ---
 
-- ## [**Two-armed Bandit**](https://cugtyt.github.io/blog/rl-notes/201807201027)
-    > RL问题, Learning a *Policy*, Policy Gradients, Value functions, e-greedy policy, policy loss equation, The Multi-armed bandit 代码
+- ## [***Thomas Simonini* Part 2: Diving deeper into Reinforcement Learning with Q-Learning**](https://cugtyt.github.io/blog/rl-notes/201807201554)
+    > Q-learning algorithm: learning the Action Value Function, The Q-learning algorithm Process, Q* Learning with FrozenLake
 
 ---
 
-- ## [**Contextual Bandits**](https://cugtyt.github.io/blog/rl-notes/201807201055)
-    > Multi-armed bandit, Contextual bandit, Full RL problem, Contextual bandit代码
+- ## [***Thomas Simonini* Part 1: An introduction to Reinforcement Learning**](https://cugtyt.github.io/blog/rl-notes/201807201508)
+    > Reinforcement Learning Process, Reward Hypothesis, Episodic or Continuing tasks, Monte Carlo vs TD Learning methods, Exploration/Exploitation trade off, Three approaches to Reinforcement Learning
 
 ---
 
-- ## [**Policy-based Agents**](https://cugtyt.github.io/blog/rl-notes/201807201126)
+- ## [***Arthur Juliani* Part 3 - Model-Based RL**](https://cugtyt.github.io/blog/rl-notes/201807201233)
+    > Model-Based
+
+---
+
+- ## [***Arthur Juliani* Part 2 - Policy-based Agents**](https://cugtyt.github.io/blog/rl-notes/201807201126)
     > Full reinforcement agent, Markov Decision Process, Cart-Pole Task
 
 ---
 
-- ## [**Model-Based RL**](https://cugtyt.github.io/blog/rl-notes/201807201233)
-    > Model-Based
+- ## [***Arthur Juliani* Part 1.5 - Contextual Bandits**](https://cugtyt.github.io/blog/rl-notes/201807201055)
+    > Multi-armed bandit, Contextual bandit, Full RL problem, Contextual bandit代码
+
+---
+
+- ## [***Arthur Juliani* Part 1 - Two-armed Bandit**](https://cugtyt.github.io/blog/rl-notes/201807201027)
+    > RL问题, Learning a *Policy*, Policy Gradients, Value functions, e-greedy policy, policy loss equation, The Multi-armed bandit 代码
+
+---
+
+- ## [***Arthur Juliani* Part 0 - Q-Learning Agents**](https://cugtyt.github.io/blog/rl-notes/201807201023)
+    > Policy Gradient, Q-Learning, Bellman Equation, Q-Table 代码, Q-Learning NN 代码
 
 ---

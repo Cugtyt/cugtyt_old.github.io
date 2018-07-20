@@ -13,26 +13,21 @@
 ---
 
 - ## [**Q-Learning Agents**](https://cugtyt.github.io/blog/rl-notes/201807201023)
-
-> Policy Gradient, Q-Learning, Bellman Equation, Q-Table 代码, Q-Learning NN 代码
+    > Policy Gradient, Q-Learning, Bellman Equation, Q-Table 代码, Q-Learning NN 代码
 ---
 
 - ## [**Two-armed Bandit**](https://cugtyt.github.io/blog/rl-notes/201807201027)
-
-> RL问题, Learning a *Policy*, Policy Gradients, Value functions, e-greedy policy, policy loss equation, The Multi-armed bandit 代码
+    > RL问题, Learning a *Policy*, Policy Gradients, Value functions, e-greedy policy, policy loss equation, The Multi-armed bandit 代码
 ---
 
 - ## [**Contextual Bandits**](https://cugtyt.github.io/blog/rl-notes/201807201055)
-
-> Multi-armed bandit, Contextual bandit, Full RL problem, Contextual bandit代码
+    > Multi-armed bandit, Contextual bandit, Full RL problem, Contextual bandit代码
 ---
 
 - ## [**Policy-based Agents**](https://cugtyt.github.io/blog/rl-notes/201807201126)
-
-> Full reinforcement agent, Markov Decision Process, Cart-Pole Task
+    > Full reinforcement agent, Markov Decision Process, Cart-Pole Task
 ---
 
 - ## [**Model-Based RL**](https://cugtyt.github.io/blog/rl-notes/201807201233)
-
-> Model-Based
+    > Model-Based
 ---

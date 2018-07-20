@@ -21,3 +21,13 @@
 
 > RL问题, Learning a *Policy*, Policy Gradients, Value functions, e-greedy policy, policy loss equation, The Multi-armed bandit 代码
 ---
+
+- ## [**Contextual Bandits**](https://cugtyt.github.io/blog/rl-notes/201807201055)
+
+> Multi-armed bandit, Contextual bandit, Full RL problem, Contextual bandit代码
+---
+
+- ## [**Policy-based Agents**](https://cugtyt.github.io/blog/rl-notes/201807201126)
+
+> Full reinforcement agent, Markov Decision Process, Cart-Pole Task
+---

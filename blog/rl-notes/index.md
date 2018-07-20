@@ -31,3 +31,9 @@
 
 > Full reinforcement agent, Markov Decision Process, Cart-Pole Task
 ---
+
+- ## [**Model-Based RL**](https://cugtyt.github.io/blog/rl-notes/201807201233)
+
+> Model-Based
+---
+

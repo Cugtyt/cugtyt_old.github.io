@@ -12,7 +12,12 @@
 
 ---
 
-- ## [***Thomas Simonini* Part 3: Diving deeper into Reinforcement Learning with Q-Learning**](https://cugtyt.github.io/blog/rl-notes/201807201554)
+- ## [***Thomas Simonini* Part 3+: Improvements in Deep Q Learning: Dueling Double DQN, Prioritized Experience Replay, and fixed Q-targets**](https://cugtyt.github.io/blog/rl-notes/201807201658)
+    > Fixed Q-targets, Double DQNs, Dueling DQN, Prioritized Experience Replay (PER), Doom Deathmatch agent
+
+---
+
+- ## [***Thomas Simonini* Part 3: An introduction to Deep Q-Learning: let’s play Doom**](https://cugtyt.github.io/blog/rl-notes/201807201622)
     > Preprocessing part, The problem of temporal limitation, Experience Replay
 
 ---

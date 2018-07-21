@@ -7,6 +7,11 @@
 
 ---
 
+- ## [**论文笔记*系列***](https://cugtyt.github.io/blog/papers/index)
+    > 阅读的一些论文
+
+---
+
 - ## [**强化学习相关*系列***](https://cugtyt.github.io/blog/rl-notes/index)
     > 强化学习相关笔记
 

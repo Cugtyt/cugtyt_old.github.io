@@ -6,6 +6,11 @@
 
 ---
 
+- ## [**从const说起**](https://cugtyt.github.io/blog/2018/07241254)
+    > 顶层const，底层const，java的final
+
+---
+
 - ## [**谈谈C的类型**](https://cugtyt.github.io/blog/2018/07211744)
     > 内存对齐，格式化输出，类型的建议
 

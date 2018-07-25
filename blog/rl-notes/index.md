@@ -32,6 +32,26 @@
 
 ---
 
+- ## [***Arthur Juliani* Part 8 - Asynchronous Actor-Critic Agents (A3C)**](https://cugtyt.github.io/blog/rl-notes/201807241747)
+    > The 3 As of A3C, Implementing the Algorithm
+
+---
+
+- ## [***Arthur Juliani* Part 7 - Action-Selection Strategies for Exploration**](https://cugtyt.github.io/blog/rl-notes/201807241704)
+    > Greedy Approach, Random Approach, ϵ-Greedy Approach, Boltzmann Approach, Bayesian Approaches (w/ Dropout)
+
+---
+
+- ## [***Arthur Juliani* Part 6 - Partial Observability and Deep Recurrent Q-Networks**](https://cugtyt.github.io/blog/rl-notes/201807231515)
+    > limited, changing world, Recurrent Neural Networks, Implementing in Tensorflow
+
+---
+
+- ## [***Arthur Juliani* Part 4 - Deep Q-Networks and Beyond**](https://cugtyt.github.io/blog/rl-notes/201807201324)
+    > Double DQN, Dueling DQN
+
+---
+
 - ## [***Arthur Juliani* Part 3 - Model-Based RL**](https://cugtyt.github.io/blog/rl-notes/201807201233)
     > Model-Based
 

@@ -1,6 +1,6 @@
 # **Blogs of *Machine Learning & Data***
 
-> ### Contact me:  
+> ## Contact me
 > Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>  
 > GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 

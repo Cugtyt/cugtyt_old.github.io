@@ -7,6 +7,11 @@
 
 ---
 
+- ## [**Kaggle记录*系列***](https://cugtyt.github.io/blog/kaggle-records/index)
+    > 记录Kaggle上的尝试
+
+---
+
 - ## [**论文笔记*系列***](https://cugtyt.github.io/blog/papers/index)
     > 阅读的一些论文
 

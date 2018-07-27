@@ -10,6 +10,11 @@
 
 ---
 
+- ## [**Wasserstein GAN**](https://cugtyt.github.io/blog/papers/2018/0727)
+    > EM与其他距离和散度的比较，WGAN可以提升稳定性，更好的收敛
+
+---
+
 - ## [**Are GANs Created Equal? A Large-Scale Study**](https://cugtyt.github.io/blog/papers/2018/0725)
     > fair and comprehensive comparison of the state-of-the-art GANs, it is necessary to report a summary of distribution of results, a series of tasks of increasing difficulty for which undisputed measures.
     >

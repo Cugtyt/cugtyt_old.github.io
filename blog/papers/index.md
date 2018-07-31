@@ -10,6 +10,12 @@
 
 ---
 
+- ## [**You Only Look Once: Unified, Real-Time Object Detection**](https://cugtyt.github.io/blog/papers/2018/0727)
+    > YOLO只使用一个神经网络，用回归问题解决目标检测，速度快，相比R-CNN准确率还差点
+
+---
+
+
 - ## [**Wasserstein GAN**](https://cugtyt.github.io/blog/papers/2018/0727)
     > EM与其他距离和散度的比较，WGAN可以提升稳定性，更好的收敛
 

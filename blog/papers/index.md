@@ -1,7 +1,8 @@
 # **Blogs of Papers**
 
 > ## Contact me
-> Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>  
+> Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>
+>
 > GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 
 ---
@@ -14,7 +15,6 @@
     > YOLO只使用一个神经网络，用回归问题解决目标检测，速度快，相比R-CNN准确率还差点
 
 ---
-
 
 - ## [**Wasserstein GAN**](https://cugtyt.github.io/blog/papers/2018/0727)
     > EM与其他距离和散度的比较，WGAN可以提升稳定性，更好的收敛

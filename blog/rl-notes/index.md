@@ -14,6 +14,18 @@
 
 ---
 
+## [***Thomas Simonini* Part 5: An intro to Advantage Actor Critic methods: let’s play Sonic the Hedgehog**](https://cugtyt.github.io/blog/rl-notes/201808011642)
+
+> The problem with Policy Gradients, How Actor Critic works, A2C and A3C, A2C in practice
+
+---
+
+## [***Thomas Simonini* Part 4: An introduction to Policy Gradients with Cartpole and Doom**](https://cugtyt.github.io/blog/rl-notes/201807311544)
+
+> Two types of policy, Advantages, Disadvantages, Policy Search, Monte Carlo Policy Gradients
+
+---
+
 ## [***Thomas Simonini* Part 3+: Improvements in Deep Q Learning: Dueling Double DQN, Prioritized Experience Replay, and fixed Q-targets**](https://cugtyt.github.io/blog/rl-notes/201807201658)
 
 > Fixed Q-targets, Double DQNs, Dueling DQN, Prioritized Experience Replay (PER), Doom Deathmatch agent

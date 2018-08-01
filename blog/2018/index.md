@@ -8,6 +8,12 @@
 
 ---
 
+## [**使用反射的例子**](https://cugtyt.github.io/blog/2018/080111)
+
+> java的反射，一些应用场景
+
+---
+
 ## [**从const说起**](https://cugtyt.github.io/blog/2018/07241254)
 
 > 顶层const，底层const，java的final

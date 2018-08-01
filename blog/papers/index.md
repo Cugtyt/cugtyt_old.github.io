@@ -24,7 +24,7 @@
 
 ---
 
-## [**You Only Look Once: Unified, Real-Time Object Detection**](https://cugtyt.github.io/blog/papers/2018/0727)
+## [**You Only Look Once: Unified, Real-Time Object Detection**](https://cugtyt.github.io/blog/papers/2018/0728)
 
 > YOLO只使用一个神经网络，用回归问题解决目标检测，速度快，相比R-CNN准确率还差点
 

@@ -8,6 +8,12 @@
 
 ---
 
+## [**sizeof(struct)是多少**](https://cugtyt.github.io/blog/2018/080113)
+
+> C和C++在空struct的区别，C++类不同成员和函数占的空间大小
+
+---
+
 ## [**使用反射的例子**](https://cugtyt.github.io/blog/2018/080111)
 
 > java的反射，一些应用场景

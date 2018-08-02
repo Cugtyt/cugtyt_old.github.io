@@ -8,6 +8,12 @@
 
 ---
 
+## [**Reverse Bits问题**](https://cugtyt.github.io/blog/algo/2018080215)
+
+> 用位运算解，二分法可以优化
+
+---
+
 ## [**Reaching Points**](https://cugtyt.github.io/blog/algo/201807231703)
 
 > 缩小问题

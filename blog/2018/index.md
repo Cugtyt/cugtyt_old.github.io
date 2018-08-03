@@ -8,6 +8,18 @@
 
 ---
 
+## [**从C++的RAII到Rust的所有权（一）**](https://cugtyt.github.io/blog/2018/080310)
+
+> Rust的移动和拷贝，所有权转移
+
+---
+
+## [**cppreference对移动构造函数的解释**](https://cugtyt.github.io/blog/2018/080209)
+
+> 移动构造函数隐式生成的情况，不生成的情况等
+
+---
+
 ## [**sizeof(struct)是多少**](https://cugtyt.github.io/blog/2018/080113)
 
 > C和C++在空struct的区别，C++类不同成员和函数占的空间大小

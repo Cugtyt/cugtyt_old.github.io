@@ -8,6 +8,12 @@
 
 ---
 
+## [**现代C++应该使用nullptr，而不是NULL**](https://cugtyt.github.io/blog/2018/080412)
+
+> 重载中的NULL和0的问题，nullptr使用
+
+---
+
 ## [**从C++的RAII到Rust的所有权（一）**](https://cugtyt.github.io/blog/2018/080310)
 
 > Rust的移动和拷贝，所有权转移

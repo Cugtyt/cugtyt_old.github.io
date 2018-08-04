@@ -14,6 +14,12 @@
 
 ---
 
+## [**从C++的RAII到Rust的所有权（二）**](https://cugtyt.github.io/blog/2018/080413)
+
+> 数据竞争，引用规则
+
+---
+
 ## [**从C++的RAII到Rust的所有权（一）**](https://cugtyt.github.io/blog/2018/080310)
 
 > Rust的移动和拷贝，所有权转移

@@ -12,13 +12,13 @@
 
 ---
 
-## [**Santander Value Prediction Challenge - 2**](https://cugtyt.github.io/blog/Santander-Value-Prediction-Challenge/20180728)
+## [**Santander Value Prediction Challenge - 2**](https://cugtyt.github.io/blog/kaggle/Santander-Value-Prediction-Challenge/1)
 
 > 尝试神经网络和决策树
 
 ---
 
-## [**Santander Value Prediction Challenge - 1**](https://cugtyt.github.io/blog/Santander-Value-Prediction-Challenge/20180726)
+## [**Santander Value Prediction Challenge - 1**](https://cugtyt.github.io/blog/kaggle/Santander-Value-Prediction-Challenge/2)
 
 > 消除全0列，用SVM训练，对目标值取log训练
 

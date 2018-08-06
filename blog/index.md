@@ -8,7 +8,7 @@
 
 ---
 
-## [**Kaggle记录*系列***](https://cugtyt.github.io/blog/kaggle-records/index)
+## [**Kaggle*系列***](https://cugtyt.github.io/blog/kaggle/index)
 
 > 记录Kaggle上的尝试
 

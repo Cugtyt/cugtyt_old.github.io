@@ -8,6 +8,12 @@
 
 ---
 
+## [**Network Delay Time问题**](https://cugtyt.github.io/blog/algo/2018080612)
+
+> 类似动态规划，有向图，最短时间
+
+---
+
 ## [**Reverse Bits问题**](https://cugtyt.github.io/blog/algo/2018080215)
 
 > 用位运算解，二分法可以优化

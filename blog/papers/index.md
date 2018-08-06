@@ -12,6 +12,12 @@
 
 ---
 
+## [**Fast R-CNN**](https://cugtyt.github.io/blog/papers/2018/0805)
+
+> R-CNN and SPPnet缺陷，一步到位的训练，使用多任务损失，RoI pooling layer，Truncated SVD
+
+---
+
 ## [**[R-CNN] Rich feature hierarchies for accurate object detection and semantic segmentation**](https://cugtyt.github.io/blog/papers/2018/0803)
 
 > 自底向上区域提议+CNN

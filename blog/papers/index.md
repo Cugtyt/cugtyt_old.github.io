@@ -12,6 +12,12 @@
 
 ---
 
+## [**Faster R-CNN**](https://cugtyt.github.io/blog/papers/2018/0807)
+
+> 对区域提议使用网络生成，这个网络和目标检测网络共享特征，速度更快，效果更好
+
+---
+
 ## [**Fast R-CNN**](https://cugtyt.github.io/blog/papers/2018/0805)
 
 > R-CNN and SPPnet缺陷，一步到位的训练，使用多任务损失，RoI pooling layer，Truncated SVD

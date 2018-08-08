@@ -12,6 +12,12 @@
 
 ---
 
+## [**Mask R-CNN**](https://cugtyt.github.io/blog/papers/2018/0808)
+
+> 相比Faster R-CNN加入了一个掩模分支用于生成掩模，在其他任务上表现不错
+
+---
+
 ## [**Faster R-CNN**](https://cugtyt.github.io/blog/papers/2018/0807)
 
 > 对区域提议使用网络生成，这个网络和目标检测网络共享特征，速度更快，效果更好

@@ -12,7 +12,13 @@
 
 ---
 
-## [**[CoordConv] An intriguing failing of convolutional neural networks and the CoordConv solution**](https://cugtyt.github.io/blog/papers/2018/0808)
+## [**[Cycle GAN] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**](https://cugtyt.github.io/blog/papers/2018/0811)
+
+> 在无数据对的情况下学习转换，学习x->y->x，损失有对抗损失和环形一致损失
+
+---
+
+## [**[CoordConv] An intriguing failing of convolutional neural networks and the CoordConv solution**](https://cugtyt.github.io/blog/papers/2018/0809)
 
 > 相比普通卷积加入了坐标层，在一些问题上比普通卷积好很多
 

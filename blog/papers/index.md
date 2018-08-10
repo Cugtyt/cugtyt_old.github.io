@@ -12,6 +12,12 @@
 
 ---
 
+## [**[CoordConv] An intriguing failing of convolutional neural networks and the CoordConv solution**](https://cugtyt.github.io/blog/papers/2018/0808)
+
+> 相比普通卷积加入了坐标层，在一些问题上比普通卷积好很多
+
+---
+
 ## [**Mask R-CNN**](https://cugtyt.github.io/blog/papers/2018/0808)
 
 > 相比Faster R-CNN加入了一个掩模分支用于生成掩模，在其他任务上表现不错

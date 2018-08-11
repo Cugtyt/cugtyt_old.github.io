@@ -12,6 +12,12 @@
 
 ---
 
+## [**ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile**](https://cugtyt.github.io/blog/papers/2018/0812)
+
+> 点级别的组卷积和通道重排导致复杂度减少，比MobileNet更好
+
+---
+
 ## [**[Cycle GAN] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**](https://cugtyt.github.io/blog/papers/2018/0811)
 
 > 在无数据对的情况下学习转换，学习x->y->x，损失有对抗损失和环形一致损失

@@ -8,6 +8,12 @@
 
 ---
 
+## [**Find All Anagrams in a String问题**](https://cugtyt.github.io/blog/algo/2018081318)
+
+> 对于子串的比较可以使用计数的方式，滑动窗每次对改变的元素修改，而不是重新计算
+
+---
+
 ## [**Network Delay Time问题**](https://cugtyt.github.io/blog/algo/2018080612)
 
 > 类似动态规划，有向图，最短时间

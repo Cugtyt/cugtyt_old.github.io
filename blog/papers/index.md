@@ -12,6 +12,12 @@
 
 ---
 
+## [**Xception: Deep Learning with Depthwise Separable Convolutions**](https://cugtyt.github.io/blog/papers/2018/0813)
+
+> 关于Inception的假说，把Inception模块替换为深度可分卷积，参数数量和V3差不多，性能更好
+
+---
+
 ## [**ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile**](https://cugtyt.github.io/blog/papers/2018/0812)
 
 > 点级别的组卷积和通道重排导致复杂度减少，比MobileNet更好

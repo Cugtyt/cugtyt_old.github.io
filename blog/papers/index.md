@@ -12,6 +12,12 @@
 
 ---
 
+## [**ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design**](https://cugtyt.github.io/blog/papers/2018/0814)
+
+> 使用速度而不是FLOPs来衡量模型的效率，提出设计高效网络的几条原则，并根据原则设计了ShuffleNet V2
+
+---
+
 ## [**Xception: Deep Learning with Depthwise Separable Convolutions**](https://cugtyt.github.io/blog/papers/2018/0813)
 
 > 关于Inception的假说，把Inception模块替换为深度可分卷积，参数数量和V3差不多，性能更好

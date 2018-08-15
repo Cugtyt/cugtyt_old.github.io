@@ -8,6 +8,12 @@
 
 ---
 
+## [**Minimum Window Substring问题**](https://cugtyt.github.io/blog/algo/2018081514)
+
+> 使用统计的方法比较无序和不连续的串
+
+---
+
 ## [**Find All Anagrams in a String问题**](https://cugtyt.github.io/blog/algo/2018081318)
 
 > 对于子串的比较可以使用计数的方式，滑动窗每次对改变的元素修改，而不是重新计算

@@ -12,6 +12,12 @@
 
 ---
 
+## [**Aggregated Residual Transformations for Deep Neural Networks**](https://cugtyt.github.io/blog/papers/2018/0817)
+
+> 复杂度一致的情况下，增加基数比宽度和深度更有效，使用重复相同拓扑结构的方法简化模型设计
+
+---
+
 ## [**ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design**](https://cugtyt.github.io/blog/papers/2018/0814)
 
 > 使用速度而不是FLOPs来衡量模型的效率，提出设计高效网络的几条原则，并根据原则设计了ShuffleNet V2

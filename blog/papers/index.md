@@ -12,6 +12,12 @@
 
 ---
 
+## [**Squeeze-and-Excitation Networks**](https://cugtyt.github.io/blog/papers/2018/0818)
+
+> 压缩激活，自适应校准，SE块的结构可以用于很多网络，提升性能
+
+---
+
 ## [**Aggregated Residual Transformations for Deep Neural Networks**](https://cugtyt.github.io/blog/papers/2018/0817)
 
 > 复杂度一致的情况下，增加基数比宽度和深度更有效，使用重复相同拓扑结构的方法简化模型设计

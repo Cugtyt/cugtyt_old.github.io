@@ -12,6 +12,12 @@
 
 ---
 
+## [**run-length 编码和解码**](https://cugtyt.github.io/blog/ml-data/2018/082211)
+
+> 通过记录连续1的起始位置和长度来编码，并根据这个信息解码
+
+---
+
 ## [**Michael Nielsen对梯度消失的解释（二）**](https://cugtyt.github.io/blog/ml-data/2018/201802101819)
 
 > 梯度消失的数学解释以及梯度爆炸，梯度不稳定问题

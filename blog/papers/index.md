@@ -12,6 +12,12 @@
 
 ---
 
+## [**XGBoost: A Scalable Tree Boosting System**](https://cugtyt.github.io/blog/papers/2018/0820)
+
+> 提出了一个Tree Boosting系统，高效可扩展。提出了针对于稀疏数据的稀疏感知算法，方法是为树节点加入默认的方向，以做到更好的数据分割，数据压缩，缓存访问模式和数据共享是系统的关键因素。数据压缩是使用块的结构，对列进行压缩，缓存访问使用不同进程对块进行读写处理，数据通过硬盘之间轮换共享。
+
+---
+
 ## [**Squeeze-and-Excitation Networks**](https://cugtyt.github.io/blog/papers/2018/0818)
 
 > 压缩激活，自适应校准，SE块的结构可以用于很多网络，提升性能

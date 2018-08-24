@@ -8,6 +8,12 @@
 
 ---
 
+## [**Matchsticks to Square问题**](https://cugtyt.github.io/blog/algo/2018/0823)
+
+> DFS解决数组均分问题
+
+---
+
 ## [**Minimum Window Substring问题**](https://cugtyt.github.io/blog/algo/2018/2018081514)
 
 > 使用统计的方法比较无序和不连续的串

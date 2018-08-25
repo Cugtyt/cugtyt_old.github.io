@@ -12,6 +12,12 @@
 
 ---
 
+## [**LightGBM: A Highly Efficient Gradient Boosting Decision Tree**](https://cugtyt.github.io/blog/papers/2018/0823)
+
+> 提出了新的GBDT算法，包括了两个新方法：基于梯度的单边采样和互斥特征打包，两个方法分别用于处理数据实例较多和特征较多的情况。GOSS排除了大部分梯度小的数据，用梯度大的数据来计算信息增益，在数据量较小的时候也能获得精确度很高的增益估计。EFB对互斥的特征进行打包，减少特征数量，使用贪心的算法可以达到很好的近似率。这个方法提高了速度，超越了现有的方法。
+
+---
+
 ## [**XGBoost: A Scalable Tree Boosting System**](https://cugtyt.github.io/blog/papers/2018/0820)
 
 > 提出了一个Tree Boosting系统，高效可扩展。提出了针对于稀疏数据的稀疏感知算法，方法是为树节点加入默认的方向，以做到更好的数据分割，数据压缩，缓存访问模式和数据共享是系统的关键因素。数据压缩是使用块的结构，对列进行压缩，缓存访问使用不同进程对块进行读写处理，数据通过硬盘之间轮换共享。

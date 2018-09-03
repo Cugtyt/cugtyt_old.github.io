@@ -12,6 +12,12 @@
 
 ---
 
+## [**How good is my GAN?**](https://cugtyt.github.io/blog/papers/2018/0830)
+
+> 提出了GAN生成图像的衡量标准。GAN-train和GAN-test，类似于准确率和召回率，分别为用生成图像训练，真实图像测试，和真实图像训练，生成图像测试。对现有的一些模型进行了对比，发现该衡量方法可以对生成图像质量和图像多样性定量衡量，比IS和FID更有效。
+
+---
+
 ## [**One pixel attack for fooling deep neural networks**](https://cugtyt.github.io/blog/papers/2018/0827)
 
 > 通过只修改自然图像的一个像素可以让网络错判，实验使用了全卷积网络，VGG，NiN，修改1，3，5个像素点，分为有目标攻击和无目标攻击，分别为将真实类别攻击为目标类别或将真实类别攻击为其他类别，结果证明修改1个像素已经能让很多网络很多类别错判，增加像素点可以增大成功率。

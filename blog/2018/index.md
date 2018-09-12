@@ -8,6 +8,12 @@
 
 ---
 
+## [**C++的explicit**](https://cugtyt.github.io/blog/2018/091318)
+
+> 使用explicit来避免隐式类型转换，但是static_cast依旧可以做转换
+
+---
+
 ## [**现代C++应该使用nullptr，而不是NULL**](https://cugtyt.github.io/blog/2018/080412)
 
 > 重载中的NULL和0的问题，nullptr使用

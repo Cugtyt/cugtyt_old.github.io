@@ -12,6 +12,18 @@
 
 ---
 
+## [**Improved Techniques for Training GANs**](https://cugtyt.github.io/blog/papers/2018/0909)
+
+> 提出了IS分数来衡量生成图像的质量，和人类判断很相关。提出了一些提升GAN的方法，Feature matching设定新的目标函数，解决GAN的不稳定性。Minibatch discrimination通过多个样本来解决模式坍塌的情况。Historical averaging在每层损失函数中加入一项，可以在低维、连续非凸博弈中找到平衡。Virtual batch normalization解决批标准化导致网络对于一个输入样本x的输出高度依赖于在这个批量中其他的几个输入$x'$。
+
+---
+
+## [**Critiquing an Article**](https://cugtyt.github.io/blog/papers/2018/0907)
+
+> 如何写文章评论
+
+---
+
 ## [**How good is my GAN?**](https://cugtyt.github.io/blog/papers/2018/0830)
 
 > 提出了GAN生成图像的衡量标准。GAN-train和GAN-test，类似于准确率和召回率，分别为用生成图像训练，真实图像测试，和真实图像训练，生成图像测试。对现有的一些模型进行了对比，发现该衡量方法可以对生成图像质量和图像多样性定量衡量，比IS和FID更有效。

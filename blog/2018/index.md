@@ -8,6 +8,12 @@
 
 ---
 
+## [**多标签的one_hot编码与解码**](https://cugtyt.github.io/blog/2018/092912)
+
+> 单标签和多标签的编码解码方法
+
+---
+
 ## [**C++的explicit**](https://cugtyt.github.io/blog/2018/091318)
 
 > 使用explicit来避免隐式类型转换，但是static_cast依旧可以做转换

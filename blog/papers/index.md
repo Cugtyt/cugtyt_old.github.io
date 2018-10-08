@@ -12,6 +12,12 @@
 
 ---
 
+## [**Grad-CAM++: Generalized Gradient-based Visual Explanations for Deep Convolutional Networks**](https://cugtyt.github.io/blog/papers/2018/0913)
+
+> 一个新的可视化方法，源于Grad-CAM但是效果更好，并提供了数学推导，对像素位置的加权，解决了Grad-CAM无法定位同一图像中多个同类目标，以及对目标识别不完全的缺点，而且做了知识蒸馏，效果表现很好。
+
+---
+
 ## [**Cyclical Learning Rates for Training Neural Networks**](https://cugtyt.github.io/blog/papers/2018/1005)
 
 > 使用循环学习率的方法可以更提升训练效果

@@ -12,9 +12,15 @@
 
 ---
 
+## [**Cyclical Learning Rates for Training Neural Networks**](https://cugtyt.github.io/blog/papers/2018/1005)
+
+> 使用循环学习率的方法可以更提升训练效果
+
+---
+
 ## [**Improved Techniques for Training GANs**](https://cugtyt.github.io/blog/papers/2018/0909)
 
-> 提出了IS分数来衡量生成图像的质量，和人类判断很相关。提出了一些提升GAN的方法，Feature matching设定新的目标函数，解决GAN的不稳定性。Minibatch discrimination通过多个样本来解决模式坍塌的情况。Historical averaging在每层损失函数中加入一项，可以在低维、连续非凸博弈中找到平衡。Virtual batch normalization解决批标准化导致网络对于一个输入样本x的输出高度依赖于在这个批量中其他的几个输入$x'$。
+> 提出了IS分数来衡量生成图像的质量，和人类判断很相关。提出了一些提升GAN的方法，Feature matching设定新的目标函数，解决GAN的不稳定性。Minibatch discrimination通过多个样本来解决模式坍塌的情况。Historical averaging在每层损失函数中加入一项，可以在低维、连续非凸博弈中找到平衡。Virtual batch normalization解决批标准化导致网络对于一个输入样本x的输出高度依赖于在这个批量中其他的几个输入x'。
 
 ---
 

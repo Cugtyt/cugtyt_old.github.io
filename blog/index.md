@@ -8,6 +8,12 @@
 
 ---
 
+## [**Crafting Your Research Future 笔记 *系列***](https://cugtyt.github.io/blog/CYRF/index)
+
+> 阅读《Crafting Your Research Future *A guide to Successful Master’s and Ph.D. Degrees in Science & engineering*》笔记
+
+---
+
 ## [**Kaggle*系列***](https://cugtyt.github.io/blog/kaggle/index)
 
 > 记录Kaggle上的尝试

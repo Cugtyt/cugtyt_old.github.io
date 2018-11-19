@@ -8,6 +8,12 @@
 
 ---
 
+## [**Distributed ML**](https://cugtyt.github.io/blog/2018/111911)
+
+> Distributed ML: Computation and Storage, Communication Principles
+
+---
+
 ## [**多标签的one_hot编码与解码**](https://cugtyt.github.io/blog/2018/092912)
 
 > 单标签和多标签的编码解码方法

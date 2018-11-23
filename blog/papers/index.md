@@ -12,6 +12,12 @@
 
 ---
 
+## [**tempoGAN: A Temporally Coherent, Volumetric GAN for Super-resolution Fluid Flow**](https://cugtyt.github.io/blog/papers/2018/1119)
+
+> 在四维空间使用GAN生成动态的烟雾，使用了两个判别器，一个是空间上的，一个是时间上的，用于控制生成的烟雾具有短暂的相关性，以模拟真实的情况。能够生成高分辨率的细节，使用了物理感知的数据增强，在2维和3维上证明了可行性。但是训练时间特别长，微调也是很耗时的过程。
+
+---
+
 ## [**Grad-CAM++: Generalized Gradient-based Visual Explanations for Deep Convolutional Networks**](https://cugtyt.github.io/blog/papers/2018/0913)
 
 > 一个新的可视化方法，源于Grad-CAM但是效果更好，并提供了数学推导，对像素位置的加权，解决了Grad-CAM无法定位同一图像中多个同类目标，以及对目标识别不完全的缺点，而且做了知识蒸馏，效果表现很好。
@@ -39,12 +45,6 @@
 ## [**How good is my GAN?**](https://cugtyt.github.io/blog/papers/2018/0830)
 
 > 提出了GAN生成图像的衡量标准。GAN-train和GAN-test，类似于准确率和召回率，分别为用生成图像训练，真实图像测试，和真实图像训练，生成图像测试。对现有的一些模型进行了对比，发现该衡量方法可以对生成图像质量和图像多样性定量衡量，比IS和FID更有效。
-
----
-
-## [**tempoGAN: A Temporally Coherent, Volumetric GAN for Super-resolution Fluid Flow**](https://cugtyt.github.io/blog/papers/2018/1119)
-
-> 在四维空间使用GAN生成动态的烟雾，使用了两个判别器，一个是空间上的，一个是时间上的，用于控制生成的烟雾具有短暂的相关性，以模拟真实的情况。能够生成高分辨率的细节，使用了物理感知的数据增强，在2维和3维上证明了可行性。但是训练时间特别长，微调也是很耗时的过程。
 
 ---
 

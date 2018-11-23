@@ -42,6 +42,12 @@
 
 ---
 
+## [**tempoGAN: A Temporally Coherent, Volumetric GAN for Super-resolution Fluid Flow**](https://cugtyt.github.io/blog/papers/2018/1119)
+
+> 在四维空间使用GAN生成动态的烟雾，使用了两个判别器，一个是空间上的，一个是时间上的，用于控制生成的烟雾具有短暂的相关性，以模拟真实的情况。能够生成高分辨率的细节，使用了物理感知的数据增强，在2维和3维上证明了可行性。但是训练时间特别长，微调也是很耗时的过程。
+
+---
+
 ## [**One pixel attack for fooling deep neural networks**](https://cugtyt.github.io/blog/papers/2018/0827)
 
 > 通过只修改自然图像的一个像素可以让网络错判，实验使用了全卷积网络，VGG，NiN，修改1，3，5个像素点，分为有目标攻击和无目标攻击，分别为将真实类别攻击为目标类别或将真实类别攻击为其他类别，结果证明修改1个像素已经能让很多网络很多类别错判，增加像素点可以增大成功率。

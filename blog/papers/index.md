@@ -12,6 +12,12 @@
 
 ---
 
+## [**Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis**](https://cugtyt.github.io/blog/papers/2018/1123)
+
+> 对于并行和分布式深度学习的综述。主要的算法，结构，形式，分析比较的方法。
+
+---
+
 ## [**tempoGAN: A Temporally Coherent, Volumetric GAN for Super-resolution Fluid Flow**](https://cugtyt.github.io/blog/papers/2018/1119)
 
 > 在四维空间使用GAN生成动态的烟雾，使用了两个判别器，一个是空间上的，一个是时间上的，用于控制生成的烟雾具有短暂的相关性，以模拟真实的情况。能够生成高分辨率的细节，使用了物理感知的数据增强，在2维和3维上证明了可行性。但是训练时间特别长，微调也是很耗时的过程。

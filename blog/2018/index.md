@@ -8,6 +8,12 @@
 
 ---
 
+## [**生成模型的应用 *TODO* **](https://cugtyt.github.io/blog/2018/120918)
+
+> BigGAN，tempoGAN
+
+---
+
 ## [**Distributed ML**](https://cugtyt.github.io/blog/2018/111911)
 
 > Distributed ML: Computation and Storage, Communication Principles

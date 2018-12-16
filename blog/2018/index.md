@@ -8,7 +8,7 @@
 
 ---
 
-## [**生成模型的应用 *TODO* **](https://cugtyt.github.io/blog/2018/120918)
+## [**生成模型的应用**](https://cugtyt.github.io/blog/2018/120918)
 
 > BigGAN，tempoGAN
 

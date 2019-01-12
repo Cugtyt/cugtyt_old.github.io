@@ -54,6 +54,10 @@
 
 ---
 
+## [**Blogs of 2019**](https://cugtyt.github.io/blog/2019/index)
+
+---
+
 ## [**Blogs of 2018**](https://cugtyt.github.io/blog/2018/index)
 
 ---

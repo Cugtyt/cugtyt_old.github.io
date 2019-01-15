@@ -8,6 +8,12 @@
 
 ---
 
+## [**Re-id文章杂项（3）**](https://cugtyt.github.io/blog/2019/0115)
+
+> 无监督字典学习，通过字典映射，做相似性判断
+
+---
+
 ## [**并行机器学习**](https://cugtyt.github.io/blog/2019/0112)
 
 > 数据并行（CV），模型并行（GridSearch），模型并行（RF）

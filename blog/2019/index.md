@@ -8,6 +8,12 @@
 
 ---
 
+## [**VS CODE sftp插件**](https://cugtyt.github.io/blog/2019/0120)
+
+> sftp 修改服务器代码
+
+---
+
 ## [**Re-id文章杂项（3）**](https://cugtyt.github.io/blog/2019/0115)
 
 > 无监督字典学习，通过字典映射，做相似性判断

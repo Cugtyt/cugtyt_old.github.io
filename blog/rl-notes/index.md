@@ -10,7 +10,20 @@
 
 本系列博客主要是关于强化学习笔记。
 
-主要内容来源于：[Thomas Simonini *Deep Reinforcement Learning Course with Tensorflow*](https://github.com/simoninithomas/Deep_reinforcement_learning_Course) 和 [Arthur Juliani *Simple Reinforcement Learning with Tensorflow series*](https://github.com/awjuliani/DeepRL-Agents)
+主要内容来源于：论文以及教程（[Thomas Simonini *Deep Reinforcement Learning Course with Tensorflow*](https://github.com/simoninithomas/Deep_reinforcement_learning_Course)， [Arthur Juliani *Simple Reinforcement Learning with Tensorflow series*](https://github.com/awjuliani/DeepRL-Agents)），[OpenAI Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/index.html)
+
+---
+
+## [OpenAI Spinning Up Part 1： Key Concepts in RL](https://cugtyt.github.io/blog/rl-notes/20190114)
+
+> 术语以及概念
+> * 状态和观察(states and observations)
+> * 行为空间(action spaces)，
+> * 策略(policies)，
+> * 轨迹(trajectories)，
+> * 不同的回报方式(different formulations of return)，
+> * RL优化问题(the RL optimization problem)，
+> * 值函数(value functions)。
 
 ---
 

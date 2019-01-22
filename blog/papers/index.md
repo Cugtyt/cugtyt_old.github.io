@@ -12,6 +12,12 @@
 
 ---
 
+## [**Statistical Modeling: The Two Cultures**](https://cugtyt.github.io/blog/papers/2019/0113)
+
+> 统计建模的两种文化 TODO
+
+---
+
 ## [**Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis**](https://cugtyt.github.io/blog/papers/2018/1123)
 
 > 对于并行和分布式深度学习的综述。主要的算法，结构，形式，分析比较的方法。

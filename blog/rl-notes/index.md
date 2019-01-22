@@ -14,7 +14,7 @@
 
 ---
 
-## [OpenAI Spinning Up Part 1： Key Concepts in RL](https://cugtyt.github.io/blog/rl-notes/20190114)
+## [**OpenAI Spinning Up Part 1： Key Concepts in RL**](https://cugtyt.github.io/blog/rl-notes/20190114)
 
 > 术语以及概念
 > * 状态和观察(states and observations)

@@ -36,7 +36,9 @@ A simple approach is viewing and training negative samples as a new label, but i
 
 ## Approach
 
-The output probability distribution, as we focusing on classification task and softmax is commonly used to produce probability, is network confidence for the specific data. We try to enforce network to produce correct label with probability 1 on postive samples, while we enforce network to produce uniform distribution for negative samples, confidences of all classes is $\frac{1}{c}$ where $c$ is number of training set classes, which is also the lowest bound network can reach, the approach we proposed is called Negative Aware Training (NAT). 
+The output probability distribution, as we focusing on classification task and softmax is commonly used to produce probability, is network confidence for the specific data. We try to enforce network to produce correct label with probability 1 on postive samples, while we enforce network to produce uniform distribution for negative samples, confidences of all classes is $\frac{1}{c}$ where $c$ is number of training set classes, which is also the lowest bound network can reach, the approach we proposed is called Negative Aware Training (NAT), the architecture is shown in figure below. 
+
+![nat-model](R/nat-model.svg)
 
 Original training settings and cost function stay unchanged, which means we don't need to change the network architecture and hyper-parameters. Both positive samples and negative samples are jointly trained but with different strategies, original classification cost function stays unchanged while cost function on negative samples, like KL(Kullback-Leibler) divergence used in this work, enforcing the network to produce uniform distribution, the overall cost function is:
 
@@ -88,7 +90,7 @@ ${NCR}_{0.9}$ | base |  0.534  |0.558 |   0.434  | 0.0001 |
 
 We use attention transfer method to verify that knowledge of negative can be transferd even the target network is not trained with negative samples. The setting of teacher network is, width = 1, depth = 40, and the student, width = 1, depth = 16, and we use activation-based attention transfer.
 
-Table below is the NCR result of student, which shows that even student network is not trained with negative sample, knowledge of negative samples can still be get if its teacher is negative aware. This encouraging results can be further advanced, 
+Table below is the NCR result of student, which shows that even student network is not trained with negative sample, knowledge of negative samples can still be get if its teacher is negative aware. This encouraging results can be further advanced, we visualized the low-, middle-, high-level group attention map by $mean (A^2)$ on channel dimention where $A \in R ^ { C \times H \times W }$ is activation map, and founded that the major difference occurs from the middle level, the low level doesn't make much differences, as the latter layers contribute more weights for making decision.
 
 > CIFAR 10 NCR results of attention transfer student
 
@@ -102,6 +104,8 @@ ${NCR}_{0.8}$ | ori |  0.661 | 0.657 | 0.591 |   0.311 |
 || NAT |  0.063 | 0.097 |   0.066 |  0|
 ${NCR}_{0.9}$ | ori |  0.542  | 0.538 |   0.462  |   0.150|
 || NAT |  0.038 |0.062 | 0.042 |  0|
+
+![nat-at-vis](R/nat-at-vis.png)
 
 ## Conclusion
 

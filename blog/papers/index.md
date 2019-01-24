@@ -12,6 +12,12 @@
 
 ---
 
+## [**PAYING MORE ATTENTION TO ATTENTION: IMPROVING THE PERFORMANCE OF CONVOLUTIONAL NEURAL NETWORKS VIA ATTENTION TRANSFER**](https://cugtyt.github.io/blog/papers/2019/0113)
+
+> 注意力迁移和蒸馏
+
+---
+
 ## [**Statistical Modeling: The Two Cultures**](https://cugtyt.github.io/blog/papers/2019/0113)
 
 > 统计建模的两种文化 TODO

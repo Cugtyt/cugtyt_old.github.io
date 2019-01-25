@@ -24,7 +24,7 @@
 
 ## Abstract
 
-Neural network is commonly used for supervised classification task, but when predicting negative samples, classes of which are not included in training sets, the network often fails and predicts random labels with high confidence. We address this problem by proposing an approach called Negative-Aware Training, which introduces negative samples during training, cost function on original data stays unchanged for classification task while cost function on negative samples like KL divergence is used which enforce network to produce equal probability for each label. The network trained by our approach is more robust and neutral to negative samples, experiments on CIFAR 10 show much better performance than original based on our proposed negative confidence rate metric, and the accuracy on original datasets still holds, and this knowledge can be transfer to another network by attention transfer approach even that network trained only on original datasets.
+Neural network is commonly used for supervised classification task, but when predicting negative samples, classes of which are not included in training sets, the network often fails and predicts random labels with high confidence. We address this problem by proposing an approach called Negative-Aware Training, which introduces negative samples during training, cost function on original data stays unchanged for classification task while cost function on negative samples like KL divergence is used which enforce network to produce equal probability for each label. The network trained by our approach is more robust and neutral to negative samples, experiments on CIFAR 10 show much better performance than original based on our proposed negative confidence rate metric, and the accuracy on original datasets still holds.
 
 ## Introduction
 
@@ -36,12 +36,12 @@ Negative samples are used more frequently on Generative adversarial nets (GANs) 
 
 For supervised classification task, we argue that the negative sample can also be used to address the problem we state above. Viewing and training negative samples as a new label is one simple approach, GANs like AM-GAN (ref) train discriminator by this way, but it involves new problems for supervised learning, the network suffers greatly from unbalanced datasets since the number of negative samples is much bigger, and that severely hurts the performance of network. CatGAN (ref) maximizes the entropy of prediction on generated data, and minimize entropy of prediction on real data, idea of which is similar with ours, but it maximizes the entropy is not a good object function for supervised classification task and ground truth should be given in supervised learning. Our approach will set a clear target for negative samples which will guide the network to learn well on both positive samples and negative samples.
 
-Attention transfer (ref) demonstrates that knowledge can be transferred through attention maps, which improves the performance of shallow student network by forcing it to mimic the attention maps of a powerful teacher network. We will transfer the negative-aware knowledge the same way, even the student network is not negative-aware.
+<!-- Attention transfer (ref) demonstrates that knowledge can be transferred through attention maps, which improves the performance of shallow student network by forcing it to mimic the attention maps of a powerful teacher network. We will transfer the negative-aware knowledge the same way.
 
 The contributions of this work are as follows:
 
 * We propose a training strategy called Negative-Aware Training, which involved negative samples during training and the architecture of network stays unchanged, and the network will be more neutral on negative samples.
-* We show that the knowledge can be transferred from a powerful teacher network with Negative-Aware Training to a student network which is not even aware of negative samples.
+* We show that the knowledge can be transferred from a powerful teacher network with Negative-Aware Training to a student network. -->
 
 ## Approach
 
@@ -76,7 +76,7 @@ where $n$ is the number of negative samples and $t$ is the threshold. ${NCR} _ t
 
 ### CIFAR 10 classification
 
-CIFAR 10 is an image data set with 10 classes and is used to train our baseline network. CIFAR 100 training set is used as negative samples during training, note that we don't throw same classes both in CIFAR 10 and CIFAR 100 because it is minor, three datasets will be tested on after training, CIFAR 100 test set, selected data samples from ILSVRC 2012, and random noises generated from standard normal distribution, they are all normalized. The baseline network is trained only on CIFAR 10 training set, tested on the above three test sets, while the network with NAT setting trained both on CIFAR 10 training set and CIFAR 100 training set. We use resnet 18 set threshold of NCR from $\{ 0.4, 0.6, 0.8, 0.9 \}$, batch size is 64, and there are 8 negative samples each batch. 
+CIFAR 10 is an image data set with 10 classes and is used to train our baseline network. CIFAR 100 training set is used as negative samples during training, note that we don't throw same classes both in CIFAR 10 and CIFAR 100 because it is minor, three datasets will be tested on after training, CIFAR 100 test set, selected data samples from ILSVRC 2012 resized to 32, and random noises generated from standard normal distribution, they are all normalized. The baseline network is trained only on CIFAR 10 training set, tested on the above three test sets, while the network with NAT setting trained both on CIFAR 10 training set and CIFAR 100 training set. We use resnet 18 set threshold of NCR from $\{ 0.4, 0.6, 0.8, 0.9 \}$, batch size is 64, and there are 8 negative samples each batch. 
 
 Table below (ref) displays the NCR results of the two networks, and the figure (ref) shows the maximum prediction of each network on CIFAR 100 test set, and the superiority is clear, baseline network predicts negative samples with high confidence while the network with NAT setting performs well not only on CIFAR 100 training set, which was used during training but on other unseen datasets, surprisingly, the network of NAT even got 0 NCR on random noise in our experiment, but the results vary on different conditions. Meanwhile, the performance of the original classification task on CIFAR 10 still holds, baseline got 95.54\% test accuracy and NAT got 95.03\%. 
 
@@ -86,40 +86,43 @@ Table below (ref) displays the NCR results of the two networks, and the figure (
 
 | Test |Sets| CIFAR 100 Train Set | CIFAR 100 Test Set | ILSVRC 2012 Samples | Random Noise |
 | -: | :- | :-: | :-: | :-: | :-: |
-| ${NCR}_{0.4}$ | base |  0.960 | 0.971 |  0.949 |  0.736 |
-|| NAT |  0.028 | 0.072 |   0.063 |  0 |
-${NCR}_{0.6}$ | base |   0.817 | 0.839 |  0.764| 0.145 |
-|| NAT |  0.012| 0.045  |  0.036 | 0 |
-${NCR}_{0.8}$ | base |  0.649 | 0.671 | 0.563 | 0.006 |
-|| NAT |   0.005 | 0.026 |   0.019 |  0 |
-${NCR}_{0.9}$ | base |  0.534  |0.558 |   0.434  | 0.0001 |
-|| NAT |   0.002 |0.018 | 0.012 |  0 | 
+| ${NCR}_{0.4}$ | base |  0.960 | 0.971 |  0.972 |  0.736 |
+|| NAT |  0.028 | 0.072 |   0.119 |  0 |
+${NCR}_{0.6}$ | base |   0.817 | 0.839 |  0.838| 0.145 |
+|| NAT |  0.012| 0.045  |  0.077 | 0 |
+${NCR}_{0.8}$ | base |  0.649 | 0.671 | 0.670 | 0.006 |
+|| NAT |   0.005 | 0.026 |   0.047 |  0 |
+${NCR}_{0.9}$ | base |  0.534  |0.558 |   0.551  | 0.0001 |
+|| NAT |   0.002 |0.018 | 0.034 |  0 | 
 
-### Attention transfer
+<!-- ### Attention transfer
 
-We use attention transfer method to verify that knowledge of negative can be transferred even the target network is not trained with negative samples. The setting of teacher network is, width = 1, depth = 40, and the student, width = 1, depth = 16, and we use activation-based attention transfer.
+We use attention transfer method to verify that knowledge of negative can be transferred. The setting of teacher network is, width = 1, depth = 40, and the student, width = 1, depth = 16, and we use activation-based attention transfer.
 
 Table below (ref) is the NCR result of student, which shows that even student network is not trained with negative sample, knowledge of negative samples can still get if its teacher is negative-aware. This encouraging results can be further advanced, we visualized the low-, middle-, high-level group attention map by $mean (A^2)$ on channel dimension where $A \in R ^ { C \times H \times W }$ is activation map and founded that the major difference occurs from the middle level, the low level doesn't make much difference, as the latter layers contribute more weights for making decision.
 
 > CIFAR 10 NCR results of attention transfer student
 
-| Test |Sets| CIFAR 100 Train Set | CIFAR 100 Test Set | ILSVRC 2012 Samples | Random Noise |
-| -: | :- | :-: | :-: | :-: | :-: |
-${NCR}_{0.4}$ | ori | 0.974 | 0.974 |  0.946 |  0.966 |
-|| NAT |  0.194 | 0.230 |   0.190 |  0|
-${NCR}_{0.6}$ | ori | 0.835 | 0.837 |  0.776|   0.647 |
-|| NAT |  0.116 | 0.151  |  0.115 | 0|
-${NCR}_{0.8}$ | ori |  0.661 | 0.657 | 0.591 |   0.311 |
-|| NAT |  0.063 | 0.097 |   0.066 |  0|
-${NCR}_{0.9}$ | ori |  0.542  | 0.538 |   0.462  |   0.150|
-|| NAT |  0.038 |0.062 | 0.042 |  0|
+| Test |Sets| CIFAR 100 Train Set | CIFAR 100 Test Set | ILSVRC 2012 Samples |
+| -: | :- | :-: | :-: | :-: |
+||| teacher/student | teacher/student | teacher/student |
+${NCR}_{0.4}$ | ori | 0.974/ | 0.974/ |  0.977/ |
+|| NAT |  0.194/ | 0.230/ |   0.324/ | 
+${NCR}_{0.6}$ | ori | 0.835/ | 0.837/ |  0.853/|
+|| NAT |  0.116/ | 0.151/  |  0.222/ |
+${NCR}_{0.8}$ | ori |  0.661/ | 0.657/ | 0.688/ |
+|| NAT |  0.063/ | 0.097/ |   0.144/ |
+${NCR}_{0.9}$ | ori |  0.542/  | 0.538/ | 0.576/  |
+|| NAT |  0.038/ |0.062/ | 0.101/ |
 
 ![nat-at-vis](R/nat-at-vis.png)
 
 ### AM-GAN
 
+We 
 
+![nat-amgan](R/nat-amgan.svg) -->
 
 ## Conclusion
 
-We propose a training approach called Neutral-Aware Training (NAT), both original datasets, we called positive samples, and negative samples labels of which are not included in training sets are used during training, a cost function on negative samples which use distribution metric, KL divergence in our work, to enforce the network output equal probability for each label on negative samples, and original architecture and settings stay unchanged. The network with NAT is more robust and neutral and holds the performance of original classification task. Experiments on  CIFAR 10 datasets shows that with NAT, the network performs well both on negative samples used during training and on other negative samples unseen before. We transfer the negative-aware knowledge to student network by attention transfer, even the student network is not aware of negative samples, indicates the great generalization and universality of NAT.
+We propose a training approach called Neutral-Aware Training (NAT), both original datasets, we called positive samples, and negative samples labels of which are not included in training sets are used during training, a cost function on negative samples which use distribution metric, KL divergence in our work, to enforce the network output equal probability for each label on negative samples, and original architecture and settings stay unchanged. The network with NAT is more robust and neutral and holds the performance of original classification task. Experiments on  CIFAR 10 datasets shows that with NAT, the network performs well both on negative samples used during training and on other negative samples unseen before. 

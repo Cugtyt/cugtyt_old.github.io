@@ -6,8 +6,6 @@
 * Email -> <cugtyt@qq.com>, <cugtyt@gmail.com>
 * GitHub -> [Cugtyt@GitHub](https://github.com/Cugtyt)
 
-> **本系列博客主页及相关见**[**此处**](https://cugtyt.github.io/blog/papers/index)
-
 ---
 
 <head>

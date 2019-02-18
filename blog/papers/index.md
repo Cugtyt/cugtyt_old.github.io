@@ -12,6 +12,12 @@
 
 ---
 
+## [**UNSUPERVISED AND SEMI-SUPERVISED LEARNING WITH CATEGORICAL GENERATIVE ADVERSARIAL NETWORKS**](https://cugtyt.github.io/blog/papers/2019/0218)
+
+> CatGAN，一个无监督和半监督学习的框架，将神经网络分类器与对抗生成模型相结合，该模型将经过判别训练的分类器正规化，也能够生成高质量的图像。
+
+---
+
 ## [**PAYING MORE ATTENTION TO ATTENTION: IMPROVING THE PERFORMANCE OF CONVOLUTIONAL NEURAL NETWORKS VIA ATTENTION TRANSFER**](https://cugtyt.github.io/blog/papers/2019/0114)
 
 > 注意力迁移和蒸馏
@@ -20,7 +26,7 @@
 
 ## [**Statistical Modeling: The Two Cultures**](https://cugtyt.github.io/blog/papers/2019/0113)
 
-> 统计建模的两种文化 TODO
+> 统计建模的两种文化
 
 ---
 

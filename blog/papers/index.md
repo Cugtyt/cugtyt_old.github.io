@@ -12,6 +12,12 @@
 
 ---
 
+## [**ACTIVATION MAXIMIZATION GENERATIVE ADVERSARIAL NETS**](https://cugtyt.github.io/blog/papers/2019/0219)
+
+> AM GAN，AM Score作为生成样本质量指标，IS作为多样性指标，分析了类别信息对于生成样本的关系。
+
+---
+
 ## [**UNSUPERVISED AND SEMI-SUPERVISED LEARNING WITH CATEGORICAL GENERATIVE ADVERSARIAL NETWORKS**](https://cugtyt.github.io/blog/papers/2019/0218)
 
 > CatGAN，一个无监督和半监督学习的框架，将神经网络分类器与对抗生成模型相结合，该模型将经过判别训练的分类器正规化，也能够生成高质量的图像。

@@ -4,3 +4,27 @@
     </video>
 </div>
 
+code is base on https://github.com/AYLIEN/gan-intro
+
+The two negative distributions are:
+<code>
+class NegDistribution(object):
+    def __init__(self):
+        self.mu = 12
+        self.sigma = 1
+
+    def sample(self, N):
+        samples = np.random.normal(self.mu, self.sigma, N)
+        samples.sort()
+        return samples
+
+class NegDistribution2(object):
+    def __init__(self):
+        self.mu = -5
+        self.sigma = 2
+
+    def sample(self, N):
+        samples = np.random.normal(self.mu, self.sigma, N)
+        samples.sort()
+        return samples
+</code>

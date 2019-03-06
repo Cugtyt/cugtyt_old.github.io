@@ -1,6 +1,6 @@
 <title>1D GAN demo</title>
 <div style="display: flex;justify-content:center; align-items:Center;">
-    <video muted src="natgan.mp4" type="video/mp4" controls="" autoplay="autoplay" loop="loop" width="1000px" height="600px">
+    <video muted src="natgan2.mp4" type="video/mp4" controls="" autoplay="autoplay" loop="loop" width="1000px" height="600px">
     </video>
 </div>
 
@@ -10,7 +10,7 @@ The two negative distributions are:
 <pre>
 class NegDistribution(object):
     def __init__(self):
-        self.mu = 12
+        self.mu = 13
         self.sigma = 1
 
     def sample(self, N):
@@ -20,7 +20,7 @@ class NegDistribution(object):
 
 class NegDistribution2(object):
     def __init__(self):
-        self.mu = -5
+        self.mu = -6
         self.sigma = 2
 
     def sample(self, N):

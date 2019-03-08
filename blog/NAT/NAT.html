@@ -4,7 +4,7 @@
     </video>
 </div>
 
-code is base on <a href=https://github.com/AYLIEN/gan-intro>gan-intro</a>
+Code is base on <a href=https://github.com/AYLIEN/gan-intro>gan-intro</a>
 <br>
 The two negative distributions are:
 <pre>
@@ -28,3 +28,16 @@ class NegDistribution2(object):
         samples.sort()
         return samples
 </pre>
+<br>
+For NAT-GAN on CIFAR 10, code will be available soon, and you can easily implement it by modifying
+<a href=https://github.com/ZhimingZhou/AM-GAN2>AM GAN</a>, some important codes are:<br>
+
+<pre>
+fake_logits = discriminator(fake_datas, num_logits)
+fake_logits2 = discriminator(tf.concat([fake_datas, next(neg_gen)[0]], 0), num_logits)
+
+dis_fake_loss = kl_divergence(tf.ones_like(fake_logits, tf.float32) / num_logits, tf.nn.softmax(fake_logits))
+dis_fake_loss2 = kl_divergence(tf.ones_like(fake_logits2, tf.float32) / num_logits, tf.nn.softmax(fake_logits2))
+</pre>
+<br>
+set class number=10, batchsize=256, and you'd better add negative samples every 10 batches to let model converge better.

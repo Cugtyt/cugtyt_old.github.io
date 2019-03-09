@@ -4,7 +4,7 @@
     </video>
 </div>
 
-Code is base on <a href=https://github.com/AYLIEN/gan-intro>gan-intro</a>
+Code of 1D GAN is based on <a href=https://github.com/AYLIEN/gan-intro>gan-intro</a>
 <br>
 The two negative distributions are:
 <pre>
@@ -39,5 +39,4 @@ fake_logits2 = discriminator(tf.concat([fake_datas, next(neg_gen)[0]], 0), num_l
 dis_fake_loss = kl_divergence(tf.ones_like(fake_logits, tf.float32) / num_logits, tf.nn.softmax(fake_logits))
 dis_fake_loss2 = kl_divergence(tf.ones_like(fake_logits2, tf.float32) / num_logits, tf.nn.softmax(fake_logits2))
 </pre>
-<br>
 set class number=10, batchsize=256, and you'd better add negative samples every 10 batches to let model converge better.

@@ -8,6 +8,12 @@
 
 ---
 
+## [**Dukto 传输文件**](https://cugtyt.github.io/blog/2019/0330)
+
+> Dukto工具传输文件
+
+---
+
 ## [**VS CODE sftp插件**](https://cugtyt.github.io/blog/2019/0120)
 
 > sftp 修改服务器代码

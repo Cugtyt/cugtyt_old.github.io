@@ -8,6 +8,12 @@
 
 ---
 
+## [**Dask库推荐**](https://cugtyt.github.io/blog/2019/0401)
+
+> numpy, pandas, scikit-learn是机器学习领域最为常用的算法工具包.但是当我们的数据比较大,内存已经放不下,或者解决较复杂并行处理的时候,可以试试Dask.
+
+---
+
 ## [**Writing Science 写作书籍推荐**](https://cugtyt.github.io/blog/2019/0331)
 
 > 推荐一本关于学术写作的书: Writing Science: How to Write Papers That Get Cited and Proposals That Get Funded. 

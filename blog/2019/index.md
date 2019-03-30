@@ -8,6 +8,12 @@
 
 ---
 
+## [**Writing Science 写作书籍推荐**](https://cugtyt.github.io/blog/2019/0331)
+
+> 推荐一本关于学术写作的书: Writing Science: How to Write Papers That Get Cited and Proposals That Get Funded. 
+
+---
+
 ## [**Dukto 传输文件**](https://cugtyt.github.io/blog/2019/0330)
 
 > Dukto工具传输文件

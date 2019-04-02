@@ -12,6 +12,12 @@
 
 ---
 
+## [**失之交臂的灵感-卷积权重标准化**](https://cugtyt.github.io/blog/papers/2019/0402)
+
+> 曾经有过把权重初始化作为一种帮助网络训练的方法,但是当时没有做出来,现在看到了有篇文章把这个想法做出来了,灵感失之交臂。
+
+---
+
 ## [**ACTIVATION MAXIMIZATION GENERATIVE ADVERSARIAL NETS**](https://cugtyt.github.io/blog/papers/2019/0219)
 
 > AM GAN，AM Score作为生成样本质量指标，IS作为多样性指标，分析了类别信息对于生成样本的关系。

@@ -12,6 +12,12 @@
 
 ---
 
+## [**SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient**](https://cugtyt.github.io/blog/papers/2019/0403)
+
+> 使用强化学习中的梯度策略来让GAN生成离散序列数据。
+
+---
+
 ## [**失之交臂的灵感-卷积权重标准化**](https://cugtyt.github.io/blog/papers/2019/0402)
 
 > 曾经有过把权重初始化作为一种帮助网络训练的方法,但是当时没有做出来,现在看到了有篇文章把这个想法做出来了,灵感失之交臂。

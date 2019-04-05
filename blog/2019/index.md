@@ -8,6 +8,12 @@
 
 ---
 
+## [**深度学习经验法则**](https://cugtyt.github.io/blog/2019/0405)
+
+> 对于深度学习在理论和实践中的一些法则和指南。
+
+---
+
 ## [**Dask库推荐**](https://cugtyt.github.io/blog/2019/0401)
 
 > numpy, pandas, scikit-learn是机器学习领域最为常用的算法工具包.但是当我们的数据比较大,内存已经放不下,或者解决较复杂并行处理的时候,可以试试Dask.

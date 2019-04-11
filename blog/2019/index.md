@@ -8,6 +8,12 @@
 
 ---
 
+## [**How Do You Find A Good Learning Rate**](https://cugtyt.github.io/blog/2019/0412)
+
+> 通过加权损失绘制学习率和损失曲线，寻找一个好的学习率
+
+---
+
 ## [**The 1cycle policy**](https://cugtyt.github.io/blog/2019/0411)
 
 > 1cycle策略调整学习率，可以使用较大的学习率，训练效率更高，更快，也可以看作是一个正则方法

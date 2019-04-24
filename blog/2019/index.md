@@ -8,6 +8,12 @@
 
 ---
 
+## [**How to c programmer magazine**](https://cugtyt.github.io/blog/2019/how-to-c-programmer-magazine.pdf)
+
+> 对于写现代C语言的忠告
+
+---
+
 ## [**How Do You Find A Good Learning Rate**](https://cugtyt.github.io/blog/2019/0412)
 
 > 通过加权损失绘制学习率和损失曲线，寻找一个好的学习率

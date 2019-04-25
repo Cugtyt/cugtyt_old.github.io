@@ -8,6 +8,12 @@
 
 ---
 
+## [**Intuitive Interpretation of Random Forest**](https://cugtyt.github.io/blog/2019/0425)
+
+> 如何解释随机森林，特征重要性，预测置信区间，预测路径，部分依赖图
+
+---
+
 ## [**How to c programmer magazine**](https://cugtyt.github.io/blog/2019/how-to-c-programmer-magazine.pdf)
 
 > 对于写现代C语言的忠告

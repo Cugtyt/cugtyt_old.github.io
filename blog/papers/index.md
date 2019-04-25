@@ -12,6 +12,12 @@
 
 ---
 
+## [**Connecting Generative Adversarial Networks and Actor-Critic Methods**](https://cugtyt.github.io/blog/papers/2019/0418)
+
+> GAN和Actor-Critic之间的联系和二者目前研究方法的共通性。
+
+---
+
 ## [**SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient**](https://cugtyt.github.io/blog/papers/2019/0403)
 
 > 使用强化学习中的梯度策略来让GAN生成离散序列数据。

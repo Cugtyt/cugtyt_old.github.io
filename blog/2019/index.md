@@ -8,6 +8,12 @@
 
 ---
 
+## [**Choosing the Right Metric for Evaluating Machine Learning Models — Part 1**](https://cugtyt.github.io/blog/2019/0426)
+
+> RMSE，MAE，R²，校正R²
+
+---
+
 ## [**Intuitive Interpretation of Random Forest**](https://cugtyt.github.io/blog/2019/0425)
 
 > 如何解释随机森林，特征重要性，预测置信区间，预测路径，部分依赖图

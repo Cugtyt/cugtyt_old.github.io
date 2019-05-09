@@ -8,6 +8,12 @@
 
 ---
 
+## [**Tips for Optimizing C/C++ Code**](https://cugtyt.github.io/blog/2019/Tips-for-Optimizing-C-Cpp-Code.pdf)
+
+> 如何优化C/C++代码
+
+---
+
 ## [**Choosing the Right Metric for Evaluating Machine Learning Models — Part 1**](https://cugtyt.github.io/blog/2019/0426)
 
 > RMSE，MAE，R²，校正R²

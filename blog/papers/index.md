@@ -12,6 +12,12 @@
 
 ---
 
+## [**DARTS: DIFFERENTIABLE ARCHITECTURE SEARCH**](https://cugtyt.github.io/blog/papers/2019/0509)
+
+> 将离散的网络结构搜索转为连续优化问题，使用梯度下降求解。先搜索到最好的基本块，然后使用基本块搭建模型。相比于其他方法GPU用时有几个数量级的缩减。
+
+---
+
 ## [**Connecting Generative Adversarial Networks and Actor-Critic Methods**](https://cugtyt.github.io/blog/papers/2019/0418)
 
 > GAN和Actor-Critic之间的联系和二者目前研究方法的共通性。

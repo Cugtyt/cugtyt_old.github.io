@@ -12,6 +12,12 @@
 
 ---
 
+## [**Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels**](https://cugtyt.github.io/blog/papers/2019/0510)
+
+> 网络具有记忆特性，即网络最开始先学习容易学的，也可以看作是学到不带噪声数据更容易，然后才过拟合。co-teaching使用初始化不同两个网络交替学习，即学习到损失小的样本作为知识传到另一个网络中，这样两个网络的结构可以互相消除噪声的影响。
+
+---
+
 ## [**DARTS: DIFFERENTIABLE ARCHITECTURE SEARCH**](https://cugtyt.github.io/blog/papers/2019/0509)
 
 > 将离散的网络结构搜索转为连续优化问题，使用梯度下降求解。先搜索到最好的基本块，然后使用基本块搭建模型。相比于其他方法GPU用时有几个数量级的缩减。

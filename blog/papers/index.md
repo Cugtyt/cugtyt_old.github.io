@@ -12,6 +12,12 @@
 
 ---
 
+## [**AutoAugment: Learning Augmentation Strategies from Data**](https://cugtyt.github.io/blog/papers/2019/0603)
+
+> 使用强化学习策略搜索数据增强方法，奖励是验证集准确率
+
+---
+
 ## [**DATASET DISTILLATION**](https://cugtyt.github.io/blog/papers/2019/0529)
 
 > 将数据集压缩到少量合成数据中，可以少量训练达到很高的准确率。文章还展示了恶意数据攻击，以及预训练模型在新数据上的情况。

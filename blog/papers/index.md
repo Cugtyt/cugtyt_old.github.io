@@ -12,6 +12,12 @@
 
 ---
 
+## [**DATASET DISTILLATION**](https://cugtyt.github.io/blog/papers/2019/0529)
+
+> 将数据集压缩到少量合成数据中，可以少量训练达到很高的准确率。文章还展示了恶意数据攻击，以及预训练模型在新数据上的情况。
+
+---
+
 ## [**Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels**](https://cugtyt.github.io/blog/papers/2019/0510)
 
 > 网络具有记忆特性，即网络最开始先学习容易学的，也可以看作是学到不带噪声数据更容易，然后才过拟合。co-teaching使用初始化不同两个网络交替学习，即学习到损失小的样本作为知识传到另一个网络中，这样两个网络的结构可以互相消除噪声的影响。

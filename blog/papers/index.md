@@ -12,6 +12,12 @@
 
 ---
 
+## [**A New Backpropagation Algorithm withoutGradient Descent**](https://cugtyt.github.io/blog/papers/2019/0605)
+
+> 用Moore-Penrose伪逆做反向传播，没看出来这篇文章有什么意义
+
+---
+
 ## [**AutoAugment: Learning Augmentation Strategies from Data**](https://cugtyt.github.io/blog/papers/2019/0603)
 
 > 使用强化学习策略搜索数据增强方法，奖励是验证集准确率

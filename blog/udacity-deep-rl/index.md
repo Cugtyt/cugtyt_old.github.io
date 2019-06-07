@@ -1,4 +1,4 @@
-# **Blogs of *Reinforcement Learning***
+# **Blogs of *Udacity Reinforcement Learning***
 
 ## Contact me
 

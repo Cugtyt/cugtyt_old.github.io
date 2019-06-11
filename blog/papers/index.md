@@ -12,7 +12,7 @@
 
 ---
 
-## [**THE LOTTERY TICKET HYPOTHESIS: FINDING SPARSE, TRAINABLE NEURAL NETWORKS**](https://cugtyt.github.io/blog/papers/2019/0605)
+## [**THE LOTTERY TICKET HYPOTHESIS: FINDING SPARSE, TRAINABLE NEURAL NETWORKS**](https://cugtyt.github.io/blog/papers/2019/0611)
 
 > 文章关于神经网络剪枝。做法是四步：
 > 

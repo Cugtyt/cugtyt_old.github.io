@@ -12,6 +12,17 @@
 
 ---
 
+## [**THE LOTTERY TICKET HYPOTHESIS: FINDING SPARSE, TRAINABLE NEURAL NETWORKS**](https://cugtyt.github.io/blog/papers/2019/0605)
+
+> 文章关于神经网络剪枝。做法是四步：
+> 
+> 初始化，训练一段时间，对梯度小的p%设置mask不再更新，将原始的初始化权重赋值回现在没有剪枝的部分
+>
+> 彩票假说，即原始网络中存在一些一开始就中奖的子网络，通过训练把中奖的找出来（这里只找一个），然后这个找到的子网络的初始权重是中奖的重要因素，需要再次赋值回来，如果重新对这个中奖子网络初始化，就无法拥有好的性能，证明了初始化的重要性。
+
+---
+
+
 ## [**A New Backpropagation Algorithm withoutGradient Descent**](https://cugtyt.github.io/blog/papers/2019/0605)
 
 > 用Moore-Penrose伪逆做反向传播，没看出来这篇文章有什么意义

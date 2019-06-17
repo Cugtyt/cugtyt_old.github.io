@@ -12,6 +12,12 @@
 
 ---
 
+## [**SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY**](https://cugtyt.github.io/blog/papers/2019/0612)
+
+> 分析连接重要性进行剪枝，Single-Shot
+
+---
+
 ## [**THE LOTTERY TICKET HYPOTHESIS: FINDING SPARSE, TRAINABLE NEURAL NETWORKS**](https://cugtyt.github.io/blog/papers/2019/0611)
 
 > 文章关于神经网络剪枝。做法是四步：

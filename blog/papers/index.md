@@ -12,6 +12,12 @@
 
 ---
 
+## [**“IMAGENET-TRAINED CNNS ARE BIASED TOWARDS TEXTURE; INCREASING SHAPE BIAS IMPROVES ACCURACY AND ROBUSTNESS**](https://cugtyt.github.io/blog/papers/2019/0708)
+
+> 证明了传统的模型使用纹理来识别，创建数据集Stylized-ImageNet（风格迁移，保留形状，换掉纹理），可以作为数据扩充，而且学到形状特征比原来的性能更高
+
+---
+
 ## [**“Why Should I Trust You?” Explaining the Predictions of Any Classifier**](https://cugtyt.github.io/blog/papers/2019/0614)
 
 > LIME 解释模型

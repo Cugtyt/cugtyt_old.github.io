@@ -12,6 +12,12 @@
 
 ---
 
+## [**“Why Should I Trust You?” Explaining the Predictions of Any Classifier**](https://cugtyt.github.io/blog/papers/2019/0614)
+
+> LIME 解释模型
+
+---
+
 ## [**SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY**](https://cugtyt.github.io/blog/papers/2019/0612)
 
 > 分析连接重要性进行剪枝，Single-Shot

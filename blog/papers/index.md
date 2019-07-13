@@ -12,6 +12,18 @@
 
 ---
 
+## [**Deep Video Inpainting**](https://cugtyt.github.io/blog/papers/2019/0712)
+
+> 基于图像编码器-解码器的模型，收集提炼邻近帧的信息，然后生成未知的区域。同时，输出通过循环反馈和时间记忆模块保持时间上的一致性。效果好，速度近乎实时。
+
+---
+
+## [**Fast Online Object Tracking and Segmentation: A Unifying Approach**](https://cugtyt.github.io/blog/papers/2019/0710)
+
+> 用单个方法实时做到同时目标跟踪和半监督视频目标分割。SiamMask通过二值分割任务增强损失提升了全卷积Siamense目标跟踪方法的训练过程。训练完成后，SiamMask只依赖于单个边界框初始值，可以做到旋转的边界框分割未知类别目标，达到每秒55帧。
+
+---
+
 ## [**“IMAGENET-TRAINED CNNS ARE BIASED TOWARDS TEXTURE; INCREASING SHAPE BIAS IMPROVES ACCURACY AND ROBUSTNESS**](https://cugtyt.github.io/blog/papers/2019/0708)
 
 > 证明了传统的模型使用纹理来识别，创建数据集Stylized-ImageNet（风格迁移，保留形状，换掉纹理），可以作为数据扩充，而且学到形状特征比原来的性能更高

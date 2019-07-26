@@ -12,6 +12,12 @@
 
 ---
 
+## [**MIXED PRECISION TRAINING**](https://cugtyt.github.io/blog/papers/2019/0714)
+
+> 混合精度训练，一些方法可以让FP16的运算达到FP32的效果，但是内存减少，速度提升。
+
+---
+
 ## [**TRAINING CONFIDENCE-CALIBRATED CLASSIFIERS FOR DETECTING OUT-OF-DISTRIBUTION SAMPLES**](https://cugtyt.github.io/blog/papers/2019/0724)
 
 > 检测内分布和外分布，通过GAN生成靠近内分布的外分布，让分类器通过KL散度使得外分布的预测为均匀分布，可以让分类器更加鲁棒。

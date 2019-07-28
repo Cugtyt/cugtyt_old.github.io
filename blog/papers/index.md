@@ -12,6 +12,12 @@
 
 ---
 
+## [**Evaluation of a Tree-based Pipeline Optimization Tool for Automating Data Science**](https://cugtyt.github.io/blog/papers/2019/0728)
+
+> TPOT，通过遗传算法自动化的探索管道，包括预处理，模型选择，参数设置等。
+
+---
+
 ## [**MIXED PRECISION TRAINING**](https://cugtyt.github.io/blog/papers/2019/0714)
 
 > 混合精度训练，一些方法可以让FP16的运算达到FP32的效果，但是内存减少，速度提升。

@@ -8,6 +8,12 @@
 
 ---
 
+## [**intv *系列***](https://cugtyt.github.io/blog/intv/index)
+
+> 算法笔记
+
+---
+
 ## [**Udacity Deep RL *系列***](https://cugtyt.github.io/blog/udacity-deep-rl/index)
 
 > Udacity Deep RL代码理解，笔记
